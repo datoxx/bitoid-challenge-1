@@ -8,7 +8,7 @@ if(isset($_POST['submit'])) {
         $lastname = $_POST['lastname'];
         $displeyInputs = false;
     } else {
-        $erorr =  "you must to input A-Z";
+        $erorr =  "you must to input letters that contains A-Z";
     }
 
     $fileName = $_FILES['image']['name'];   
